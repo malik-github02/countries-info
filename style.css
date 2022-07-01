@@ -76,4 +76,5 @@ body {
        text-align: center;
        display: block;
        margin: 20px auto;
+       border: 2px dotted black;
 }
