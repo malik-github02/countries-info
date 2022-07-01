@@ -22,6 +22,10 @@ async function getData(url) {
                 <span>${dataNew[0].population}</span>
             </div>
             <div class="wrapper">
+                <h4>Area:</h4>
+                <span>${dataNew[0].area}</span>
+            </div>
+            <div class="wrapper">
                 <h4>Continents:</h4>
                 <span>${dataNew[0].continents.join('')}</span>
             </div>
